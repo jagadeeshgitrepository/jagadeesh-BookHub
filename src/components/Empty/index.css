@@ -1,0 +1,12 @@
+.search-failure-image {
+  width: 50%;
+}
+.search-failure-paragraph {
+  color: #334155;
+}
+.search-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

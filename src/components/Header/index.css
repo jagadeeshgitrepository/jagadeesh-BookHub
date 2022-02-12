@@ -1,0 +1,81 @@
+.link-color {
+  color: #64748b;
+}
+.logout-button {
+  background: #0284c7;
+  height: 32px;
+  width: 73px;
+  border: 0px;
+  color: #f8fafc;
+  border-radius: 4px;
+  padding: 8px, 16px, 8px, 16px;
+}
+.navbar {
+  min-height: 3vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.navbar-unordered-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.header-logo {
+  width: 110px;
+}
+.header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 300px;
+}
+.display-horizontal {
+  list-style-type: none;
+}
+@media (max-width: 767px) {
+  .big-resolution {
+    display: none;
+  }
+
+  .display-horizontal {
+    list-style-type: none;
+    width: 100%;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (min-width: 767px) {
+  .display-horizontal {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.blueColor {
+  color: #0284c7;
+}
+.close-button {
+  background-color: transparent;
+  border: 0px;
+}
+.closeIcon {
+  font-size: 25px;
+}

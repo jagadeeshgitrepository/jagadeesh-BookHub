@@ -1,0 +1,129 @@
+.home-heading {
+  color: #1e293b;
+  margin-left: 100px;
+  font-size: 24px;
+}
+.home-paragraph {
+  color: #475569;
+  margin-left: 100px;
+  font-size: 14px;
+  height: 64px;
+}
+.home-container {
+  background-color: #e5e5e5;
+
+  padding-top: 20px;
+}
+.slick-main-container {
+  width: 80%;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  background: #ffffff;
+  padding: 20px;
+  /* Light / Shadow / base */
+  height: 70%;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+    0px 1px 2px rgba(96, 97, 112, 0.16);
+  border-radius: 16px;
+}
+.slick-container {
+  width: 80%;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 50px;
+  margin-left: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #989898;
+}
+.findBooksContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-size: 18px;
+  line-height: 32px;
+}
+.findBooks {
+  height: 30px;
+  width: 104px;
+  border: 0px;
+  background-color: #0284c7;
+  color: white;
+  border-radius: 4px;
+  padding: 10px, 20px, 10px, 20px;
+}
+.top-rated-images-container {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.topRatedImages {
+  width: 50%;
+
+  text-align: center;
+}
+
+.title {
+  font-size: 15px;
+
+  color: #334155;
+}
+
+.author {
+  font-size: 10px;
+  color: #475569;
+}
+.slick-item {
+  text-align: center;
+  margin-right: 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 250px;
+
+  height: 300px;
+}
+
+@media (max-width: 767px) {
+  .home-heading {
+    margin-left: 50px;
+  }
+  .home-paragraph {
+    margin-left: 50px;
+  }
+  .slick-main-container {
+    margin-left: 50px;
+  }
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.silk-unordered-list {
+  list-style-type: none;
+  padding: 0px;
+}
+.unordered-slider-list {
+  list-style-type: none;
+}

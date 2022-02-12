@@ -1,0 +1,33 @@
+.failure-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.failure-heading {
+  color: #475569;
+  font-size: 25px;
+}
+
+.failure-paragraph {
+  color: #616e7c;
+}
+
+.try-again {
+  height: 48px;
+  width: 112px;
+  border-radius: 12px;
+  background-color: #0284c7;
+
+  padding: 12px, 24px, 12px, 24px;
+}
+.no-books-img {
+  width: 50%;
+}
+.try-again {
+  border: 0px;
+  color: white;
+  font-family: 'Roboto';
+}
